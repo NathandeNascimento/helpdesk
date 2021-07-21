@@ -11,6 +11,31 @@
 
 ?>
 
+<?
+  $chamados = array();
+
+
+  //abrir arquivo.txt
+  $arquivo = fopen('arquivo.txt','r');
+  
+  // percorer arquivo .txt enquanto houver registros a serem recuperados
+  while(!feof($arquivo)){
+    //linhas
+    $registros = fgets($arquivo);
+    $chamados[] = $registros;
+
+  }
+  //fechar o arquivo aberto
+  fclose($arquivo);
+  //....
+  
+  echo '<pre>';
+  print_r($chamados);
+  echo '<pre/>';
+
+
+?>
+
 <html>
   <head>
     <meta charset="utf-8" />
