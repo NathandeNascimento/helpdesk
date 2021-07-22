@@ -14,7 +14,7 @@
 	<style>
 		body{
 			
-			background:url(img/imagen2.jpg);}
+			background:url(imagen2.jpg);}
 
 		   .centralizar{
 			font-family: Trebuchet MS, Helvetica, sans-serif;
@@ -95,7 +95,7 @@
 
 <nav >
 	<div>
-		<img src="img/logo.png" alt="Central de Ajuda" width="320" height="320" style="float:left;">
+		<img src="logo.png" alt="Central de Ajuda" width="320" height="320" style="float:left;">
 	</div>
 
 	<div class="barra"> &nbsp &nbsp &nbsp &nbsp Help Desk</div>

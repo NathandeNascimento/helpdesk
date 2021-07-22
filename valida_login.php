@@ -12,9 +12,10 @@ $usuario_autenticado = false;
 
 $usuarios_app = array(
 
-    array("e-mail" => "adm@teste.com.br","senha" => "12.ab3456"),
-    array("e-mail" => "user@teste.com.br","senha" => "abcd"),
-    array("e-mail" => "saiery@nanana.com","senha" => "789789"),
+    array('id' => 1,"e-mail" => "adm@teste.com.br","senha" => "1234"),
+    array('id' => 2,"e-mail" => "user@teste.com.br","senha" => "1234"),
+    array('id' => 3,"e-mail" => "jose@teste.com.br","senha" => "1234"),
+    array('id' => 4,"e-mail" => "maria@teste.com.br","senha" => "1234"),
     
 
 
@@ -39,13 +40,14 @@ foreach($usuarios_app as $user){
     if ($user['e-mail'] == $_POST{'e-mail'} && $user['senha'] == $_POST{'senha'}
 
     ){ $usuario_autenticado = true;
-      
+       $usuario_id = $user ['id'];      
     } 
 
 }
    if ($usuario_autenticado ) {
         echo "usuario autenticado";
         $_SESSION['autenticado'] = 'SIM';
+        $_SESSION['id'] = $usuario_id;
         header('location: home.php');
             }
     else {
