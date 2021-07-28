@@ -1,0 +1,8 @@
+
+4#Impressora não imprime#Impressora#tento imprimir e bla bla bla
+3#telefone#Rede#tento fazer ligação e bla bla bla 
+1#fumaça no nobrack#Hardware#liguei na tomada e saiu fumaça
+3#chamado jose#Criação Usuário#Preciso criar um usuário
+3#chamado jose#Software#Solicito atualização do software, pois o mesmo não realiza backup diário.
+4#chamado Maria#Impressora#Impressora não liga 
+4#chamado maria#Criação Usuário#Cadastrar a fernanda do Fiscal por favor.
