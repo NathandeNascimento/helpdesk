@@ -50,6 +50,7 @@ foreach($usuarios_app as $user){
     } 
 
 }
+
    if ($usuario_autenticado ) {
         echo "usuario autenticado";
         $_SESSION['autenticado'] = 'SIM';
